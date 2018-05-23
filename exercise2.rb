@@ -1,9 +1,23 @@
 #!/usr/bin/env ruby -wKU
+# def negative?(num)
+#   if num >= 0
+#     return "Flase"
+#   else
+#     return "True"
+#   end
+# end
+#
+# puts "Is your number a negative?"
+#
+# num = gets.chomp.to_f
+#
+# puts negative?(num)
+
 def negative?(num)
-  if num >= 0
-    return "Positive"
+  if num < 0
+    return true
   else
-    return "Negative"
+    return false
   end
 end
 
