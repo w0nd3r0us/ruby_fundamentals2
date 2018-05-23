@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby -wKU
 # def negative?(num)
 #   if num >= 0
-#     return "Flase"
+#     return "False"
 #   else
 #     return "True"
 #   end
